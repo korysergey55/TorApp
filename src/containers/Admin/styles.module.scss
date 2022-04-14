@@ -1,0 +1,29 @@
+@import '../../sources/styles/variables.scss';
+
+
+.adminPage {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-x: auto;
+
+    width: 100%;
+    margin: 0 auto;
+    padding:20px;
+
+    .routesContainer {
+      flex: 2;
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .adminPage {
+    .container {
+      flex-wrap: nowrap;
+      padding: 40px 20px;
+    }
+  }
+}
+

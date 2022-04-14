@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  padding: 20px;
+  
+  .filter {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    overflow-x: auto;
+   
+    .title {
+      max-width: 200px;
+    }
+    .content {
+      max-width: 200px;
+      max-height: 30px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  
+    .notes {
+      max-width: 200px;
+      max-height: 30px;
+      margin-right: 20px;
+      font-size: 16px;
+      font-weight: 400;
+      overflow: hidden;
+  
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+}

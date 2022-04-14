@@ -1,0 +1,73 @@
+@import 'sources/styles/variables.scss';
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 50px 15px;
+ 
+
+  .wripper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .img {
+      display: block;
+      width: 280px;
+      height: 280px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 30px;
+      border-radius: 7px;
+    }
+    .rigthSide {
+      .title {
+        margin-bottom: 45px;
+        font-size: 100px;
+        font-weight: 500;
+        line-height: 75px;
+        text-align: center;
+        color: #252932;
+      }
+      .subtitle {
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 550;
+        line-height: 51px;
+        text-align: center;
+        color: $brandColor;
+      }
+      .text {
+        max-width: 448px;
+        margin-bottom: 36px;
+        font-family: Barlow;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 28px;
+        text-align: center;
+        color: #6c6c6c;
+      }
+      .buttonBackHome {
+        display: block;
+        width: 175px;
+        height: 53px;
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 7px;
+        color: #ffffff;
+        background-color: $brandColor;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

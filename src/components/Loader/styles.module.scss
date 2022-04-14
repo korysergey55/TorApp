@@ -1,0 +1,11 @@
+@import 'sources/styles/variables.scss';
+
+.loader {
+  display: block;
+  margin-left: 50%;
+  margin-top: 50px;
+}
+.loadingText {
+  display: inline-block;
+  color: $brandColor;
+}

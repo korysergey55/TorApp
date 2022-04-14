@@ -1,0 +1,57 @@
+.container {
+  padding: 20px;
+  overflow-x: auto;
+
+  .filter {
+    display: block;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  .space {
+    margin: 0 auto;
+  }
+
+  .content {
+    width: 200px;
+    max-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .notes {
+    max-width: 200px;
+    max-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .wripper {
+    .tableWripper {
+      margin-bottom: 100px;
+
+      .titleWripper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+
+        .tableTitle {
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+      }
+      // .total {
+      //   width: 300px;
+      //   max-width: 300px;
+      //   font-size: 20px;
+      //   font-weight: 600;
+      //   user-select: none;
+      // }
+    }
+  }
+}

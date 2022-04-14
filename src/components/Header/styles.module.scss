@@ -1,0 +1,20 @@
+@import 'sources/styles/variables.scss';
+
+.link {
+  margin-right: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: $brandColor;
+
+  &:hover {
+    cursor: pointer;
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  .logo {
+    display: block;
+    max-height: 50px;
+    max-width: 200px;
+  }
+ }
